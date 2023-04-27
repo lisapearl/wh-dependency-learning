@@ -1,0 +1,1544 @@
+Options selected:
+print_incremental = yes
+print_interval = 25000
+inputfile = input/child-all.countsCP
+chainfile = input/child-all.chainsCP
+chain_separator = -
+learner_runs = 1
+data_points_to_run = 200000
+smoothing_constant = 0.5
+alpha = 1
+beta = 1
+Node types learner is using (extracted from input file):
+ADJP
+CP_after
+CP_for
+CP_null
+CP_that
+CP_whether
+IP
+NP
+PP
+VP
+0:
+IP gen probability = 0.000826446280991736
+IP-VP gen probability = 6.83013455365071e-07
+IP-VP-CP_after-IP-VP gen probability = 3.85543289429532e-16
+IP-VP-CP_null-IP gen probability = 4.66507380209733e-13
+IP-VP-CP_null-IP-NP gen probability = 3.85543289429532e-16
+IP-VP-CP_null-IP-NP-PP gen probability = 3.18630817710357e-19
+IP-VP-CP_null-IP-VP gen probability = 3.85543289429532e-16
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 2.6333125430608e-22
+IP-VP-CP_null-IP-VP-NP gen probability = 3.18630817710357e-19
+IP-VP-CP_null-IP-VP-PP gen probability = 3.18630817710357e-19
+IP-VP-CP_that-IP gen probability = 4.66507380209733e-13
+IP-VP-CP_that-IP-NP-PP gen probability = 3.18630817710357e-19
+IP-VP-CP_that-IP-VP gen probability = 3.85543289429532e-16
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 2.6333125430608e-22
+IP-VP-CP_that-IP-VP-NP gen probability = 3.18630817710357e-19
+IP-VP-CP_that-IP-VP-PP gen probability = 3.18630817710357e-19
+IP-VP-CP_whether-IP-VP gen probability = 3.85543289429532e-16
+IP-VP-IP-VP gen probability = 4.66507380209733e-13
+IP-VP-IP-VP-NP gen probability = 3.85543289429532e-16
+IP-VP-NP gen probability = 5.64473930053777e-10
+IP-VP-NP-CP_null-IP gen probability = 3.85543289429532e-16
+IP-VP-NP-CP_null-IP-VP gen probability = 3.18630817710357e-19
+IP-VP-NP-CP_that-IP gen probability = 3.85543289429532e-16
+IP-VP-NP-CP_that-IP-VP gen probability = 3.18630817710357e-19
+IP-VP-NP-PP gen probability = 4.66507380209733e-13
+IP-VP-PP gen probability = 5.64473930053777e-10
+VP gen probability = 0.000826446280991736
+25000:
+IP gen probability = 0.0599188056077248
+IP-VP gen probability = 0.164263256618967
+IP-VP-CP_after-IP-VP gen probability = 1.40183610522217e-16
+IP-VP-CP_null-IP gen probability = 1.03698307735959e-08
+IP-VP-CP_null-IP-NP gen probability = 1.66713944966394e-15
+IP-VP-CP_null-IP-NP-PP gen probability = 3.63707314535983e-19
+IP-VP-CP_null-IP-VP gen probability = 4.5358268121893e-08
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 4.37170070456706e-11
+IP-VP-CP_null-IP-VP-NP gen probability = 2.59884610530654e-13
+IP-VP-CP_null-IP-VP-PP gen probability = 2.72416000411932e-11
+IP-VP-CP_that-IP gen probability = 1.73275636786746e-14
+IP-VP-CP_that-IP-NP-PP gen probability = 3.58566639751786e-23
+IP-VP-CP_that-IP-VP gen probability = 4.80829784091204e-14
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 4.63431253644747e-17
+IP-VP-CP_that-IP-VP-NP gen probability = 2.75496103233639e-19
+IP-VP-CP_that-IP-VP-PP gen probability = 2.88780264513309e-17
+IP-VP-CP_whether-IP-VP gen probability = 1.40183610522217e-16
+IP-VP-IP-VP gen probability = 0.000158319491556823
+IP-VP-IP-VP-NP gen probability = 9.07106931245395e-10
+IP-VP-NP gen probability = 9.41162311492933e-07
+IP-VP-NP-CP_null-IP gen probability = 3.26534933705114e-17
+IP-VP-NP-CP_null-IP-VP gen probability = 1.42828358509703e-16
+IP-VP-NP-CP_that-IP gen probability = 5.53449040178159e-19
+IP-VP-NP-CP_that-IP-VP gen probability = 1.5357888011796e-18
+IP-VP-NP-PP gen probability = 1.7446027634437e-11
+IP-VP-PP gen probability = 9.86544267133941e-05
+VP gen probability = 9.48532620036803e-06
+50000:
+IP gen probability = 0.0615245754455672
+IP-VP gen probability = 0.16569359342645
+IP-VP-CP_after-IP-VP gen probability = 1.80468152683841e-17
+IP-VP-CP_null-IP gen probability = 1.07071261408854e-08
+IP-VP-CP_null-IP-NP gen probability = 4.60661119905978e-16
+IP-VP-CP_null-IP-NP-PP gen probability = 1.12197544915876e-19
+IP-VP-CP_null-IP-VP gen probability = 5.19767299809479e-08
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 5.00683465113845e-11
+IP-VP-CP_null-IP-VP-NP gen probability = 2.85184782243924e-13
+IP-VP-CP_null-IP-VP-PP gen probability = 3.04319585470006e-11
+IP-VP-CP_that-IP gen probability = 3.67049279106188e-15
+IP-VP-CP_that-IP-NP-PP gen probability = 4.26931096683157e-24
+IP-VP-CP_that-IP-VP gen probability = 1.3156128330652e-14
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 1.26730864417361e-17
+IP-VP-CP_that-IP-VP-NP gen probability = 7.21847564193705e-20
+IP-VP-CP_that-IP-VP-PP gen probability = 7.70280762456926e-18
+IP-VP-CP_whether-IP-VP gen probability = 1.80468152683841e-17
+IP-VP-IP-VP gen probability = 0.000159609968796284
+IP-VP-IP-VP-NP gen probability = 8.75744476649693e-10
+IP-VP-NP gen probability = 9.09123974860598e-07
+IP-VP-NP-CP_null-IP gen probability = 7.85491892360916e-18
+IP-VP-NP-CP_null-IP-VP gen probability = 3.81309601234334e-17
+IP-VP-NP-CP_that-IP gen probability = 7.07650353478303e-20
+IP-VP-NP-CP_that-IP-VP gen probability = 2.53642750266741e-19
+IP-VP-NP-PP gen probability = 2.64499788849243e-11
+IP-VP-PP gen probability = 9.70122700775056e-05
+VP gen probability = 4.77564041337943e-06
+75000:
+IP gen probability = 0.0614775792904201
+IP-VP gen probability = 0.166288957803426
+IP-VP-CP_after-IP-VP gen probability = 5.39212780361702e-18
+IP-VP-CP_null-IP gen probability = 1.13695772780955e-08
+IP-VP-CP_null-IP-NP gen probability = 2.09570654647042e-16
+IP-VP-CP_null-IP-NP-PP gen probability = 4.61117724530633e-20
+IP-VP-CP_null-IP-VP gen probability = 5.3455770115953e-08
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 5.14932030519539e-11
+IP-VP-CP_null-IP-VP-NP gen probability = 2.60692761881783e-13
+IP-VP-CP_null-IP-VP-PP gen probability = 3.19217241100891e-11
+IP-VP-CP_that-IP gen probability = 3.90641941647938e-15
+IP-VP-CP_that-IP-NP-PP gen probability = 2.74089545794916e-24
+IP-VP-CP_that-IP-VP gen probability = 2.64915238991704e-14
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 2.55189180950285e-17
+IP-VP-CP_that-IP-VP-NP gen probability = 1.29193696335337e-19
+IP-VP-CP_that-IP-VP-PP gen probability = 1.58197162875178e-17
+IP-VP-CP_whether-IP-VP gen probability = 5.39212780361702e-18
+IP-VP-IP-VP gen probability = 0.000160183850141824
+IP-VP-IP-VP-NP gen probability = 7.81183588071956e-10
+IP-VP-NP gen probability = 8.10956938534148e-07
+IP-VP-NP-CP_null-IP gen probability = 3.43763934164583e-18
+IP-VP-NP-CP_null-IP-VP gen probability = 1.61625761357556e-17
+IP-VP-NP-CP_that-IP gen probability = 1.98707476395713e-20
+IP-VP-NP-CP_that-IP-VP gen probability = 1.34754190440336e-19
+IP-VP-NP-PP gen probability = 2.02082590840251e-11
+IP-VP-PP gen probability = 9.9301351791227e-05
+VP gen probability = 3.18883652110691e-06
+100000:
+IP gen probability = 0.0609580660886854
+IP-VP gen probability = 0.166383462044542
+IP-VP-CP_after-IP-VP gen probability = 2.27050988298046e-18
+IP-VP-CP_null-IP gen probability = 1.22968465363665e-08
+IP-VP-CP_null-IP-NP gen probability = 1.22951434131009e-16
+IP-VP-CP_null-IP-NP-PP gen probability = 2.55617508851282e-20
+IP-VP-CP_null-IP-VP gen probability = 5.69709209868796e-08
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 5.63170091808408e-11
+IP-VP-CP_null-IP-VP-NP gen probability = 2.94793778797711e-13
+IP-VP-CP_null-IP-VP-PP gen probability = 3.37694649923093e-11
+IP-VP-CP_that-IP gen probability = 3.01012595158108e-15
+IP-VP-CP_that-IP-NP-PP gen probability = 1.4954758836446e-24
+IP-VP-CP_that-IP-VP gen probability = 2.76252937462232e-14
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 2.73082108307109e-17
+IP-VP-CP_that-IP-VP-NP gen probability = 1.4294599056458e-19
+IP-VP-CP_that-IP-VP-PP gen probability = 1.63748693878442e-17
+IP-VP-CP_whether-IP-VP gen probability = 2.27050988298046e-18
+IP-VP-IP-VP gen probability = 0.000164473713908549
+IP-VP-IP-VP-NP gen probability = 8.51062731584786e-10
+IP-VP-NP gen probability = 8.60944647829234e-07
+IP-VP-NP-CP_null-IP gen probability = 2.0506616177222e-18
+IP-VP-NP-CP_null-IP-VP gen probability = 9.500653736596e-18
+IP-VP-NP-CP_that-IP gen probability = 8.58017413272887e-21
+IP-VP-NP-CP_that-IP-VP gen probability = 7.8744157096111e-20
+IP-VP-NP-PP gen probability = 1.84301818099676e-11
+IP-VP-PP gen probability = 9.86236557086094e-05
+VP gen probability = 2.38966898305247e-06
+125000:
+IP gen probability = 0.0610679864348652
+IP-VP gen probability = 0.166729653539104
+IP-VP-CP_after-IP-VP gen probability = 1.1687296636919e-18
+IP-VP-CP_null-IP gen probability = 1.18735076105708e-08
+IP-VP-CP_null-IP-NP gen probability = 7.70295614697313e-17
+IP-VP-CP_null-IP-NP-PP gen probability = 1.57739917576902e-20
+IP-VP-CP_null-IP-VP gen probability = 5.5066605968365e-08
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 5.43394201876186e-11
+IP-VP-CP_null-IP-VP-NP gen probability = 2.61821229946456e-13
+IP-VP-CP_null-IP-VP-PP gen probability = 3.28126026889358e-11
+IP-VP-CP_that-IP gen probability = 1.82861959676711e-15
+IP-VP-CP_that-IP-NP-PP gen probability = 7.16651410943989e-25
+IP-VP-CP_that-IP-VP gen probability = 1.82614009951859e-14
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 1.8020248832152e-17
+IP-VP-CP_that-IP-VP-NP gen probability = 8.68261695999885e-20
+IP-VP-CP_that-IP-VP-PP gen probability = 1.08814422981254e-17
+IP-VP-CP_whether-IP-VP gen probability = 1.1687296636919e-18
+IP-VP-IP-VP gen probability = 0.000164527893849174
+IP-VP-IP-VP-NP gen probability = 7.82268940868402e-10
+IP-VP-NP gen probability = 7.92737489273134e-07
+IP-VP-NP-CP_null-IP gen probability = 1.25043653477267e-18
+IP-VP-NP-CP_null-IP-VP gen probability = 5.79923795117389e-18
+IP-VP-NP-CP_that-IP gen probability = 4.23876791448363e-21
+IP-VP-NP-CP_that-IP-VP gen probability = 4.23302040231671e-20
+IP-VP-NP-PP gen probability = 1.72999906983254e-11
+IP-VP-PP gen probability = 9.93493930093577e-05
+VP gen probability = 1.91381699316385e-06
+150000:
+IP gen probability = 0.0612169047155696
+IP-VP gen probability = 0.166681821708959
+IP-VP-CP_after-IP-VP gen probability = 6.76533446635375e-19
+IP-VP-CP_null-IP gen probability = 1.31909055172949e-08
+IP-VP-CP_null-IP-NP gen probability = 5.52268125767534e-17
+IP-VP-CP_null-IP-NP-PP gen probability = 1.08356616296338e-20
+IP-VP-CP_null-IP-VP gen probability = 5.74275405845772e-08
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 5.68239408493317e-11
+IP-VP-CP_null-IP-VP-NP gen probability = 2.71834134505532e-13
+IP-VP-CP_null-IP-VP-PP gen probability = 3.39632217558865e-11
+IP-VP-CP_that-IP gen probability = 1.42454645290794e-15
+IP-VP-CP_that-IP-NP-PP gen probability = 4.458434763711e-25
+IP-VP-CP_that-IP-VP gen probability = 1.64999742299902e-14
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 1.63265490758672e-17
+IP-VP-CP_that-IP-VP-NP gen probability = 7.81028783144078e-20
+IP-VP-CP_that-IP-VP-PP gen probability = 9.75824975325632e-18
+IP-VP-CP_whether-IP-VP gen probability = 6.76533446635375e-19
+IP-VP-IP-VP gen probability = 0.000164929890450374
+IP-VP-IP-VP-NP gen probability = 7.8069813835472e-10
+IP-VP-NP gen probability = 7.88990931543194e-07
+IP-VP-NP-CP_null-IP gen probability = 9.31653713549575e-19
+IP-VP-NP-CP_null-IP-VP gen probability = 4.0560203676307e-18
+IP-VP-NP-CP_that-IP gen probability = 2.44528533740046e-21
+IP-VP-NP-CP_that-IP-VP gen probability = 2.83228005444956e-20
+IP-VP-NP-PP gen probability = 1.60270368780773e-11
+IP-VP-PP gen probability = 9.85772961152517e-05
+VP gen probability = 1.59514565274955e-06
+175000:
+IP gen probability = 0.0610480695614131
+IP-VP gen probability = 0.166750550672405
+IP-VP-CP_after-IP-VP gen probability = 4.26119252504539e-19
+IP-VP-CP_null-IP gen probability = 1.32101607826206e-08
+IP-VP-CP_null-IP-NP gen probability = 4.09534795916526e-17
+IP-VP-CP_null-IP-NP-PP gen probability = 8.45452179035813e-21
+IP-VP-CP_null-IP-VP gen probability = 5.83062898071343e-08
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 5.76614430442895e-11
+IP-VP-CP_null-IP-VP-NP gen probability = 2.82568962355016e-13
+IP-VP-CP_null-IP-VP-PP gen probability = 3.47557275368305e-11
+IP-VP-CP_that-IP gen probability = 8.9717604829348e-16
+IP-VP-CP_that-IP-NP-PP gen probability = 2.53219533625065e-25
+IP-VP-CP_that-IP-VP gen probability = 1.03926224493332e-14
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 1.02776837529063e-17
+IP-VP-CP_that-IP-VP-NP gen probability = 5.03656218114602e-20
+IP-VP-CP_that-IP-VP-PP gen probability = 6.1949260609269e-18
+IP-VP-CP_whether-IP-VP gen probability = 4.26119252504539e-19
+IP-VP-IP-VP gen probability = 0.000164906349074955
+IP-VP-IP-VP-NP gen probability = 7.99183348794772e-10
+IP-VP-NP gen probability = 8.08120877378541e-07
+IP-VP-NP-CP_null-IP gen probability = 6.88860097101539e-19
+IP-VP-NP-CP_null-IP-VP gen probability = 3.04045326314379e-18
+IP-VP-NP-CP_that-IP gen probability = 1.56204103651143e-21
+IP-VP-NP-CP_that-IP-VP gen probability = 1.80942221693351e-20
+IP-VP-NP-PP gen probability = 1.81149605340515e-11
+IP-VP-PP gen probability = 9.93981391194165e-05
+VP gen probability = 1.36716613802909e-06
+debug: chain gen probabilities
+200000:
+IP gen probability = 0.0609562935013291
+IP-VP gen probability = 0.16685112868796
+IP-VP-CP_after-IP-VP gen probability = 2.85677163542943e-19
+IP-VP-CP_null-IP gen probability = 1.29112680725489e-08
+IP-VP-CP_null-IP-NP gen probability = 3.15870327951948e-17
+IP-VP-CP_null-IP-NP-PP gen probability = 6.76410988754539e-21
+IP-VP-CP_null-IP-VP gen probability = 5.91329594395815e-08
+IP-VP-CP_null-IP-VP-IP-VP gen probability = 5.83818396993646e-11
+IP-VP-CP_null-IP-VP-NP gen probability = 2.82716441060248e-13
+IP-VP-CP_null-IP-VP-PP gen probability = 3.51312120263498e-11
+IP-VP-CP_that-IP gen probability = 9.78779837916792e-16
+IP-VP-CP_that-IP-NP-PP gen probability = 2.50746933091846e-25
+IP-VP-CP_that-IP-VP gen probability = 1.44704053649407e-14
+IP-VP-CP_that-IP-VP-IP-VP gen probability = 1.4286599121831e-17
+IP-VP-CP_that-IP-VP-NP gen probability = 6.91834392231815e-20
+IP-VP-CP_that-IP-VP-PP gen probability = 8.59694633586494e-18
+IP-VP-CP_whether-IP-VP gen probability = 2.85677163542943e-19
+IP-VP-IP-VP gen probability = 0.000164731749282249
+IP-VP-IP-VP-NP gen probability = 7.87587401815924e-10
+IP-VP-NP gen probability = 7.97720217905591e-07
+IP-VP-NP-CP_null-IP gen probability = 5.09850586658871e-19
+IP-VP-NP-CP_null-IP-VP gen probability = 2.33509008501238e-18
+IP-VP-NP-CP_that-IP gen probability = 1.04263923652121e-21
+IP-VP-NP-CP_that-IP-VP gen probability = 1.54145108198855e-20
+IP-VP-NP-PP gen probability = 1.95006153591382e-11
+IP-VP-PP gen probability = 9.91271607970442e-05
+VP gen probability = 1.19632393581004e-06
+debug: chain gen probabilities over time
+chain:	0	25000	50000	75000	100000	125000	150000	175000	200000	
+IP	0.000826446280991736	0.0599188056077248	0.0615245754455672	0.0614775792904201	0.0609580660886854	0.0610679864348652	0.0612169047155696	0.0610480695614131	0.0609562935013291	
+IP-VP	6.83013455365071e-07	0.164263256618967	0.16569359342645	0.166288957803426	0.166383462044542	0.166729653539104	0.166681821708959	0.166750550672405	0.16685112868796	
+IP-VP-CP_after-IP-VP	3.85543289429532e-16	1.40183610522217e-16	1.80468152683841e-17	5.39212780361702e-18	2.27050988298046e-18	1.1687296636919e-18	6.76533446635375e-19	4.26119252504539e-19	2.85677163542943e-19	
+IP-VP-CP_null-IP	4.66507380209733e-13	1.03698307735959e-08	1.07071261408854e-08	1.13695772780955e-08	1.22968465363665e-08	1.18735076105708e-08	1.31909055172949e-08	1.32101607826206e-08	1.29112680725489e-08	
+IP-VP-CP_null-IP-NP	3.85543289429532e-16	1.66713944966394e-15	4.60661119905978e-16	2.09570654647042e-16	1.22951434131009e-16	7.70295614697313e-17	5.52268125767534e-17	4.09534795916526e-17	3.15870327951948e-17	
+IP-VP-CP_null-IP-NP-PP	3.18630817710357e-19	3.63707314535983e-19	1.12197544915876e-19	4.61117724530633e-20	2.55617508851282e-20	1.57739917576902e-20	1.08356616296338e-20	8.45452179035813e-21	6.76410988754539e-21	
+IP-VP-CP_null-IP-VP	3.85543289429532e-16	4.5358268121893e-08	5.19767299809479e-08	5.3455770115953e-08	5.69709209868796e-08	5.5066605968365e-08	5.74275405845772e-08	5.83062898071343e-08	5.91329594395815e-08	
+IP-VP-CP_null-IP-VP-IP-VP	2.6333125430608e-22	4.37170070456706e-11	5.00683465113845e-11	5.14932030519539e-11	5.63170091808408e-11	5.43394201876186e-11	5.68239408493317e-11	5.76614430442895e-11	5.83818396993646e-11	
+IP-VP-CP_null-IP-VP-NP	3.18630817710357e-19	2.59884610530654e-13	2.85184782243924e-13	2.60692761881783e-13	2.94793778797711e-13	2.61821229946456e-13	2.71834134505532e-13	2.82568962355016e-13	2.82716441060248e-13	
+IP-VP-CP_null-IP-VP-PP	3.18630817710357e-19	2.72416000411932e-11	3.04319585470006e-11	3.19217241100891e-11	3.37694649923093e-11	3.28126026889358e-11	3.39632217558865e-11	3.47557275368305e-11	3.51312120263498e-11	
+IP-VP-CP_that-IP	4.66507380209733e-13	1.73275636786746e-14	3.67049279106188e-15	3.90641941647938e-15	3.01012595158108e-15	1.82861959676711e-15	1.42454645290794e-15	8.9717604829348e-16	9.78779837916792e-16	
+IP-VP-CP_that-IP-NP-PP	3.18630817710357e-19	3.58566639751786e-23	4.26931096683157e-24	2.74089545794916e-24	1.4954758836446e-24	7.16651410943989e-25	4.458434763711e-25	2.53219533625065e-25	2.50746933091846e-25	
+IP-VP-CP_that-IP-VP	3.85543289429532e-16	4.80829784091204e-14	1.3156128330652e-14	2.64915238991704e-14	2.76252937462232e-14	1.82614009951859e-14	1.64999742299902e-14	1.03926224493332e-14	1.44704053649407e-14	
+IP-VP-CP_that-IP-VP-IP-VP	2.6333125430608e-22	4.63431253644747e-17	1.26730864417361e-17	2.55189180950285e-17	2.73082108307109e-17	1.8020248832152e-17	1.63265490758672e-17	1.02776837529063e-17	1.4286599121831e-17	
+IP-VP-CP_that-IP-VP-NP	3.18630817710357e-19	2.75496103233639e-19	7.21847564193705e-20	1.29193696335337e-19	1.4294599056458e-19	8.68261695999885e-20	7.81028783144078e-20	5.03656218114602e-20	6.91834392231815e-20	
+IP-VP-CP_that-IP-VP-PP	3.18630817710357e-19	2.88780264513309e-17	7.70280762456926e-18	1.58197162875178e-17	1.63748693878442e-17	1.08814422981254e-17	9.75824975325632e-18	6.1949260609269e-18	8.59694633586494e-18	
+IP-VP-CP_whether-IP-VP	3.85543289429532e-16	1.40183610522217e-16	1.80468152683841e-17	5.39212780361702e-18	2.27050988298046e-18	1.1687296636919e-18	6.76533446635375e-19	4.26119252504539e-19	2.85677163542943e-19	
+IP-VP-IP-VP	4.66507380209733e-13	0.000158319491556823	0.000159609968796284	0.000160183850141824	0.000164473713908549	0.000164527893849174	0.000164929890450374	0.000164906349074955	0.000164731749282249	
+IP-VP-IP-VP-NP	3.85543289429532e-16	9.07106931245395e-10	8.75744476649693e-10	7.81183588071956e-10	8.51062731584786e-10	7.82268940868402e-10	7.8069813835472e-10	7.99183348794772e-10	7.87587401815924e-10	
+IP-VP-NP	5.64473930053777e-10	9.41162311492933e-07	9.09123974860598e-07	8.10956938534148e-07	8.60944647829234e-07	7.92737489273134e-07	7.88990931543194e-07	8.08120877378541e-07	7.97720217905591e-07	
+IP-VP-NP-CP_null-IP	3.85543289429532e-16	3.26534933705114e-17	7.85491892360916e-18	3.43763934164583e-18	2.0506616177222e-18	1.25043653477267e-18	9.31653713549575e-19	6.88860097101539e-19	5.09850586658871e-19	
+IP-VP-NP-CP_null-IP-VP	3.18630817710357e-19	1.42828358509703e-16	3.81309601234334e-17	1.61625761357556e-17	9.500653736596e-18	5.79923795117389e-18	4.0560203676307e-18	3.04045326314379e-18	2.33509008501238e-18	
+IP-VP-NP-CP_that-IP	3.85543289429532e-16	5.53449040178159e-19	7.07650353478303e-20	1.98707476395713e-20	8.58017413272887e-21	4.23876791448363e-21	2.44528533740046e-21	1.56204103651143e-21	1.04263923652121e-21	
+IP-VP-NP-CP_that-IP-VP	3.18630817710357e-19	1.5357888011796e-18	2.53642750266741e-19	1.34754190440336e-19	7.8744157096111e-20	4.23302040231671e-20	2.83228005444956e-20	1.80942221693351e-20	1.54145108198855e-20	
+IP-VP-NP-PP	4.66507380209733e-13	1.7446027634437e-11	2.64499788849243e-11	2.02082590840251e-11	1.84301818099676e-11	1.72999906983254e-11	1.60270368780773e-11	1.81149605340515e-11	1.95006153591382e-11	
+IP-VP-PP	5.64473930053777e-10	9.86544267133941e-05	9.70122700775056e-05	9.9301351791227e-05	9.86236557086094e-05	9.93493930093577e-05	9.85772961152517e-05	9.93981391194165e-05	9.91271607970442e-05	
+VP	0.000826446280991736	9.48532620036803e-06	4.77564041337943e-06	3.18883652110691e-06	2.38966898305247e-06	1.91381699316385e-06	1.59514565274955e-06	1.36716613802909e-06	1.19632393581004e-06	
+debug: observed data
+IP = 25476.5
+IP-VP = 153299.5
+IP-VP-CP_for-IP-VP-PP = 7.5
+IP-VP-CP_null-IP = 244.5
+IP-VP-CP_null-IP-VP = 2216.5
+IP-VP-CP_null-IP-VP-IP-VP = 273.5
+IP-VP-CP_null-IP-VP-IP-VP-IP-VP = 22.5
+IP-VP-CP_null-IP-VP-IP-VP-PP = 11.5
+IP-VP-CP_null-IP-VP-NP = 7.5
+IP-VP-CP_null-IP-VP-PP = 258.5
+IP-VP-CP_null-IP-VP-PP-PP = 7.5
+IP-VP-CP_that-IP-VP = 18.5
+IP-VP-IP = 82.5
+IP-VP-IP-VP = 11046.5
+IP-VP-IP-VP-IP-VP = 117.5
+IP-VP-IP-VP-IP-VP-PP = 386.5
+IP-VP-IP-VP-NP = 62.5
+IP-VP-IP-VP-NP-PP = 6.5
+IP-VP-IP-VP-PP = 643.5
+IP-VP-NP = 478.5
+IP-VP-NP-PP = 56.5
+IP-VP-PP = 4987.5
+IP-VP-PP-CP_null-IP-VP = 8.5
+IP-VP-PP-NP-PP = 27.5
+IP-VP-PP-PP = 230.5
+IP-VP-PP-VP = 17.5
+IP-VP-VP = 9.5
+IP-VP-VP-PP = 8.5
+debug: final trigram counts
+ADJP ADJP ADJP 0.5
+ADJP ADJP CP_after 0.5
+ADJP ADJP CP_for 0.5
+ADJP ADJP CP_null 0.5
+ADJP ADJP CP_that 0.5
+ADJP ADJP CP_whether 0.5
+ADJP ADJP IP 0.5
+ADJP ADJP NP 0.5
+ADJP ADJP PP 0.5
+ADJP ADJP VP 0.5
+ADJP ADJP end 0.5
+ADJP CP_after ADJP 0.5
+ADJP CP_after CP_after 0.5
+ADJP CP_after CP_for 0.5
+ADJP CP_after CP_null 0.5
+ADJP CP_after CP_that 0.5
+ADJP CP_after CP_whether 0.5
+ADJP CP_after IP 0.5
+ADJP CP_after NP 0.5
+ADJP CP_after PP 0.5
+ADJP CP_after VP 0.5
+ADJP CP_after end 0.5
+ADJP CP_for ADJP 0.5
+ADJP CP_for CP_after 0.5
+ADJP CP_for CP_for 0.5
+ADJP CP_for CP_null 0.5
+ADJP CP_for CP_that 0.5
+ADJP CP_for CP_whether 0.5
+ADJP CP_for IP 0.5
+ADJP CP_for NP 0.5
+ADJP CP_for PP 0.5
+ADJP CP_for VP 0.5
+ADJP CP_for end 0.5
+ADJP CP_null ADJP 0.5
+ADJP CP_null CP_after 0.5
+ADJP CP_null CP_for 0.5
+ADJP CP_null CP_null 0.5
+ADJP CP_null CP_that 0.5
+ADJP CP_null CP_whether 0.5
+ADJP CP_null IP 0.5
+ADJP CP_null NP 0.5
+ADJP CP_null PP 0.5
+ADJP CP_null VP 0.5
+ADJP CP_null end 0.5
+ADJP CP_that ADJP 0.5
+ADJP CP_that CP_after 0.5
+ADJP CP_that CP_for 0.5
+ADJP CP_that CP_null 0.5
+ADJP CP_that CP_that 0.5
+ADJP CP_that CP_whether 0.5
+ADJP CP_that IP 0.5
+ADJP CP_that NP 0.5
+ADJP CP_that PP 0.5
+ADJP CP_that VP 0.5
+ADJP CP_that end 0.5
+ADJP CP_whether ADJP 0.5
+ADJP CP_whether CP_after 0.5
+ADJP CP_whether CP_for 0.5
+ADJP CP_whether CP_null 0.5
+ADJP CP_whether CP_that 0.5
+ADJP CP_whether CP_whether 0.5
+ADJP CP_whether IP 0.5
+ADJP CP_whether NP 0.5
+ADJP CP_whether PP 0.5
+ADJP CP_whether VP 0.5
+ADJP CP_whether end 0.5
+ADJP IP ADJP 0.5
+ADJP IP CP_after 0.5
+ADJP IP CP_for 0.5
+ADJP IP CP_null 0.5
+ADJP IP CP_that 0.5
+ADJP IP CP_whether 0.5
+ADJP IP IP 0.5
+ADJP IP NP 0.5
+ADJP IP PP 0.5
+ADJP IP VP 0.5
+ADJP IP end 0.5
+ADJP NP ADJP 0.5
+ADJP NP CP_after 0.5
+ADJP NP CP_for 0.5
+ADJP NP CP_null 0.5
+ADJP NP CP_that 0.5
+ADJP NP CP_whether 0.5
+ADJP NP IP 0.5
+ADJP NP NP 0.5
+ADJP NP PP 0.5
+ADJP NP VP 0.5
+ADJP NP end 0.5
+ADJP PP ADJP 0.5
+ADJP PP CP_after 0.5
+ADJP PP CP_for 0.5
+ADJP PP CP_null 0.5
+ADJP PP CP_that 0.5
+ADJP PP CP_whether 0.5
+ADJP PP IP 0.5
+ADJP PP NP 0.5
+ADJP PP PP 0.5
+ADJP PP VP 0.5
+ADJP PP end 0.5
+ADJP VP ADJP 0.5
+ADJP VP CP_after 0.5
+ADJP VP CP_for 0.5
+ADJP VP CP_null 0.5
+ADJP VP CP_that 0.5
+ADJP VP CP_whether 0.5
+ADJP VP IP 0.5
+ADJP VP NP 0.5
+ADJP VP PP 0.5
+ADJP VP VP 0.5
+ADJP VP end 0.5
+CP_after ADJP ADJP 0.5
+CP_after ADJP CP_after 0.5
+CP_after ADJP CP_for 0.5
+CP_after ADJP CP_null 0.5
+CP_after ADJP CP_that 0.5
+CP_after ADJP CP_whether 0.5
+CP_after ADJP IP 0.5
+CP_after ADJP NP 0.5
+CP_after ADJP PP 0.5
+CP_after ADJP VP 0.5
+CP_after ADJP end 0.5
+CP_after CP_after ADJP 0.5
+CP_after CP_after CP_after 0.5
+CP_after CP_after CP_for 0.5
+CP_after CP_after CP_null 0.5
+CP_after CP_after CP_that 0.5
+CP_after CP_after CP_whether 0.5
+CP_after CP_after IP 0.5
+CP_after CP_after NP 0.5
+CP_after CP_after PP 0.5
+CP_after CP_after VP 0.5
+CP_after CP_after end 0.5
+CP_after CP_for ADJP 0.5
+CP_after CP_for CP_after 0.5
+CP_after CP_for CP_for 0.5
+CP_after CP_for CP_null 0.5
+CP_after CP_for CP_that 0.5
+CP_after CP_for CP_whether 0.5
+CP_after CP_for IP 0.5
+CP_after CP_for NP 0.5
+CP_after CP_for PP 0.5
+CP_after CP_for VP 0.5
+CP_after CP_for end 0.5
+CP_after CP_null ADJP 0.5
+CP_after CP_null CP_after 0.5
+CP_after CP_null CP_for 0.5
+CP_after CP_null CP_null 0.5
+CP_after CP_null CP_that 0.5
+CP_after CP_null CP_whether 0.5
+CP_after CP_null IP 0.5
+CP_after CP_null NP 0.5
+CP_after CP_null PP 0.5
+CP_after CP_null VP 0.5
+CP_after CP_null end 0.5
+CP_after CP_that ADJP 0.5
+CP_after CP_that CP_after 0.5
+CP_after CP_that CP_for 0.5
+CP_after CP_that CP_null 0.5
+CP_after CP_that CP_that 0.5
+CP_after CP_that CP_whether 0.5
+CP_after CP_that IP 0.5
+CP_after CP_that NP 0.5
+CP_after CP_that PP 0.5
+CP_after CP_that VP 0.5
+CP_after CP_that end 0.5
+CP_after CP_whether ADJP 0.5
+CP_after CP_whether CP_after 0.5
+CP_after CP_whether CP_for 0.5
+CP_after CP_whether CP_null 0.5
+CP_after CP_whether CP_that 0.5
+CP_after CP_whether CP_whether 0.5
+CP_after CP_whether IP 0.5
+CP_after CP_whether NP 0.5
+CP_after CP_whether PP 0.5
+CP_after CP_whether VP 0.5
+CP_after CP_whether end 0.5
+CP_after IP ADJP 0.5
+CP_after IP CP_after 0.5
+CP_after IP CP_for 0.5
+CP_after IP CP_null 0.5
+CP_after IP CP_that 0.5
+CP_after IP CP_whether 0.5
+CP_after IP IP 0.5
+CP_after IP NP 0.5
+CP_after IP PP 0.5
+CP_after IP VP 0.5
+CP_after IP end 0.5
+CP_after NP ADJP 0.5
+CP_after NP CP_after 0.5
+CP_after NP CP_for 0.5
+CP_after NP CP_null 0.5
+CP_after NP CP_that 0.5
+CP_after NP CP_whether 0.5
+CP_after NP IP 0.5
+CP_after NP NP 0.5
+CP_after NP PP 0.5
+CP_after NP VP 0.5
+CP_after NP end 0.5
+CP_after PP ADJP 0.5
+CP_after PP CP_after 0.5
+CP_after PP CP_for 0.5
+CP_after PP CP_null 0.5
+CP_after PP CP_that 0.5
+CP_after PP CP_whether 0.5
+CP_after PP IP 0.5
+CP_after PP NP 0.5
+CP_after PP PP 0.5
+CP_after PP VP 0.5
+CP_after PP end 0.5
+CP_after VP ADJP 0.5
+CP_after VP CP_after 0.5
+CP_after VP CP_for 0.5
+CP_after VP CP_null 0.5
+CP_after VP CP_that 0.5
+CP_after VP CP_whether 0.5
+CP_after VP IP 0.5
+CP_after VP NP 0.5
+CP_after VP PP 0.5
+CP_after VP VP 0.5
+CP_after VP end 0.5
+CP_for ADJP ADJP 0.5
+CP_for ADJP CP_after 0.5
+CP_for ADJP CP_for 0.5
+CP_for ADJP CP_null 0.5
+CP_for ADJP CP_that 0.5
+CP_for ADJP CP_whether 0.5
+CP_for ADJP IP 0.5
+CP_for ADJP NP 0.5
+CP_for ADJP PP 0.5
+CP_for ADJP VP 0.5
+CP_for ADJP end 0.5
+CP_for CP_after ADJP 0.5
+CP_for CP_after CP_after 0.5
+CP_for CP_after CP_for 0.5
+CP_for CP_after CP_null 0.5
+CP_for CP_after CP_that 0.5
+CP_for CP_after CP_whether 0.5
+CP_for CP_after IP 0.5
+CP_for CP_after NP 0.5
+CP_for CP_after PP 0.5
+CP_for CP_after VP 0.5
+CP_for CP_after end 0.5
+CP_for CP_for ADJP 0.5
+CP_for CP_for CP_after 0.5
+CP_for CP_for CP_for 0.5
+CP_for CP_for CP_null 0.5
+CP_for CP_for CP_that 0.5
+CP_for CP_for CP_whether 0.5
+CP_for CP_for IP 0.5
+CP_for CP_for NP 0.5
+CP_for CP_for PP 0.5
+CP_for CP_for VP 0.5
+CP_for CP_for end 0.5
+CP_for CP_null ADJP 0.5
+CP_for CP_null CP_after 0.5
+CP_for CP_null CP_for 0.5
+CP_for CP_null CP_null 0.5
+CP_for CP_null CP_that 0.5
+CP_for CP_null CP_whether 0.5
+CP_for CP_null IP 0.5
+CP_for CP_null NP 0.5
+CP_for CP_null PP 0.5
+CP_for CP_null VP 0.5
+CP_for CP_null end 0.5
+CP_for CP_that ADJP 0.5
+CP_for CP_that CP_after 0.5
+CP_for CP_that CP_for 0.5
+CP_for CP_that CP_null 0.5
+CP_for CP_that CP_that 0.5
+CP_for CP_that CP_whether 0.5
+CP_for CP_that IP 0.5
+CP_for CP_that NP 0.5
+CP_for CP_that PP 0.5
+CP_for CP_that VP 0.5
+CP_for CP_that end 0.5
+CP_for CP_whether ADJP 0.5
+CP_for CP_whether CP_after 0.5
+CP_for CP_whether CP_for 0.5
+CP_for CP_whether CP_null 0.5
+CP_for CP_whether CP_that 0.5
+CP_for CP_whether CP_whether 0.5
+CP_for CP_whether IP 0.5
+CP_for CP_whether NP 0.5
+CP_for CP_whether PP 0.5
+CP_for CP_whether VP 0.5
+CP_for CP_whether end 0.5
+CP_for IP ADJP 0.5
+CP_for IP CP_after 0.5
+CP_for IP CP_for 0.5
+CP_for IP CP_null 0.5
+CP_for IP CP_that 0.5
+CP_for IP CP_whether 0.5
+CP_for IP IP 0.5
+CP_for IP NP 0.5
+CP_for IP PP 0.5
+CP_for IP VP 7.5
+CP_for IP end 0.5
+CP_for NP ADJP 0.5
+CP_for NP CP_after 0.5
+CP_for NP CP_for 0.5
+CP_for NP CP_null 0.5
+CP_for NP CP_that 0.5
+CP_for NP CP_whether 0.5
+CP_for NP IP 0.5
+CP_for NP NP 0.5
+CP_for NP PP 0.5
+CP_for NP VP 0.5
+CP_for NP end 0.5
+CP_for PP ADJP 0.5
+CP_for PP CP_after 0.5
+CP_for PP CP_for 0.5
+CP_for PP CP_null 0.5
+CP_for PP CP_that 0.5
+CP_for PP CP_whether 0.5
+CP_for PP IP 0.5
+CP_for PP NP 0.5
+CP_for PP PP 0.5
+CP_for PP VP 0.5
+CP_for PP end 0.5
+CP_for VP ADJP 0.5
+CP_for VP CP_after 0.5
+CP_for VP CP_for 0.5
+CP_for VP CP_null 0.5
+CP_for VP CP_that 0.5
+CP_for VP CP_whether 0.5
+CP_for VP IP 0.5
+CP_for VP NP 0.5
+CP_for VP PP 0.5
+CP_for VP VP 0.5
+CP_for VP end 0.5
+CP_null ADJP ADJP 0.5
+CP_null ADJP CP_after 0.5
+CP_null ADJP CP_for 0.5
+CP_null ADJP CP_null 0.5
+CP_null ADJP CP_that 0.5
+CP_null ADJP CP_whether 0.5
+CP_null ADJP IP 0.5
+CP_null ADJP NP 0.5
+CP_null ADJP PP 0.5
+CP_null ADJP VP 0.5
+CP_null ADJP end 0.5
+CP_null CP_after ADJP 0.5
+CP_null CP_after CP_after 0.5
+CP_null CP_after CP_for 0.5
+CP_null CP_after CP_null 0.5
+CP_null CP_after CP_that 0.5
+CP_null CP_after CP_whether 0.5
+CP_null CP_after IP 0.5
+CP_null CP_after NP 0.5
+CP_null CP_after PP 0.5
+CP_null CP_after VP 0.5
+CP_null CP_after end 0.5
+CP_null CP_for ADJP 0.5
+CP_null CP_for CP_after 0.5
+CP_null CP_for CP_for 0.5
+CP_null CP_for CP_null 0.5
+CP_null CP_for CP_that 0.5
+CP_null CP_for CP_whether 0.5
+CP_null CP_for IP 0.5
+CP_null CP_for NP 0.5
+CP_null CP_for PP 0.5
+CP_null CP_for VP 0.5
+CP_null CP_for end 0.5
+CP_null CP_null ADJP 0.5
+CP_null CP_null CP_after 0.5
+CP_null CP_null CP_for 0.5
+CP_null CP_null CP_null 0.5
+CP_null CP_null CP_that 0.5
+CP_null CP_null CP_whether 0.5
+CP_null CP_null IP 0.5
+CP_null CP_null NP 0.5
+CP_null CP_null PP 0.5
+CP_null CP_null VP 0.5
+CP_null CP_null end 0.5
+CP_null CP_that ADJP 0.5
+CP_null CP_that CP_after 0.5
+CP_null CP_that CP_for 0.5
+CP_null CP_that CP_null 0.5
+CP_null CP_that CP_that 0.5
+CP_null CP_that CP_whether 0.5
+CP_null CP_that IP 0.5
+CP_null CP_that NP 0.5
+CP_null CP_that PP 0.5
+CP_null CP_that VP 0.5
+CP_null CP_that end 0.5
+CP_null CP_whether ADJP 0.5
+CP_null CP_whether CP_after 0.5
+CP_null CP_whether CP_for 0.5
+CP_null CP_whether CP_null 0.5
+CP_null CP_whether CP_that 0.5
+CP_null CP_whether CP_whether 0.5
+CP_null CP_whether IP 0.5
+CP_null CP_whether NP 0.5
+CP_null CP_whether PP 0.5
+CP_null CP_whether VP 0.5
+CP_null CP_whether end 0.5
+CP_null IP ADJP 0.5
+CP_null IP CP_after 0.5
+CP_null IP CP_for 0.5
+CP_null IP CP_null 0.5
+CP_null IP CP_that 0.5
+CP_null IP CP_whether 0.5
+CP_null IP IP 0.5
+CP_null IP NP 0.5
+CP_null IP PP 0.5
+CP_null IP VP 2802.5
+CP_null IP end 244.5
+CP_null NP ADJP 0.5
+CP_null NP CP_after 0.5
+CP_null NP CP_for 0.5
+CP_null NP CP_null 0.5
+CP_null NP CP_that 0.5
+CP_null NP CP_whether 0.5
+CP_null NP IP 0.5
+CP_null NP NP 0.5
+CP_null NP PP 0.5
+CP_null NP VP 0.5
+CP_null NP end 0.5
+CP_null PP ADJP 0.5
+CP_null PP CP_after 0.5
+CP_null PP CP_for 0.5
+CP_null PP CP_null 0.5
+CP_null PP CP_that 0.5
+CP_null PP CP_whether 0.5
+CP_null PP IP 0.5
+CP_null PP NP 0.5
+CP_null PP PP 0.5
+CP_null PP VP 0.5
+CP_null PP end 0.5
+CP_null VP ADJP 0.5
+CP_null VP CP_after 0.5
+CP_null VP CP_for 0.5
+CP_null VP CP_null 0.5
+CP_null VP CP_that 0.5
+CP_null VP CP_whether 0.5
+CP_null VP IP 0.5
+CP_null VP NP 0.5
+CP_null VP PP 0.5
+CP_null VP VP 0.5
+CP_null VP end 0.5
+CP_that ADJP ADJP 0.5
+CP_that ADJP CP_after 0.5
+CP_that ADJP CP_for 0.5
+CP_that ADJP CP_null 0.5
+CP_that ADJP CP_that 0.5
+CP_that ADJP CP_whether 0.5
+CP_that ADJP IP 0.5
+CP_that ADJP NP 0.5
+CP_that ADJP PP 0.5
+CP_that ADJP VP 0.5
+CP_that ADJP end 0.5
+CP_that CP_after ADJP 0.5
+CP_that CP_after CP_after 0.5
+CP_that CP_after CP_for 0.5
+CP_that CP_after CP_null 0.5
+CP_that CP_after CP_that 0.5
+CP_that CP_after CP_whether 0.5
+CP_that CP_after IP 0.5
+CP_that CP_after NP 0.5
+CP_that CP_after PP 0.5
+CP_that CP_after VP 0.5
+CP_that CP_after end 0.5
+CP_that CP_for ADJP 0.5
+CP_that CP_for CP_after 0.5
+CP_that CP_for CP_for 0.5
+CP_that CP_for CP_null 0.5
+CP_that CP_for CP_that 0.5
+CP_that CP_for CP_whether 0.5
+CP_that CP_for IP 0.5
+CP_that CP_for NP 0.5
+CP_that CP_for PP 0.5
+CP_that CP_for VP 0.5
+CP_that CP_for end 0.5
+CP_that CP_null ADJP 0.5
+CP_that CP_null CP_after 0.5
+CP_that CP_null CP_for 0.5
+CP_that CP_null CP_null 0.5
+CP_that CP_null CP_that 0.5
+CP_that CP_null CP_whether 0.5
+CP_that CP_null IP 0.5
+CP_that CP_null NP 0.5
+CP_that CP_null PP 0.5
+CP_that CP_null VP 0.5
+CP_that CP_null end 0.5
+CP_that CP_that ADJP 0.5
+CP_that CP_that CP_after 0.5
+CP_that CP_that CP_for 0.5
+CP_that CP_that CP_null 0.5
+CP_that CP_that CP_that 0.5
+CP_that CP_that CP_whether 0.5
+CP_that CP_that IP 0.5
+CP_that CP_that NP 0.5
+CP_that CP_that PP 0.5
+CP_that CP_that VP 0.5
+CP_that CP_that end 0.5
+CP_that CP_whether ADJP 0.5
+CP_that CP_whether CP_after 0.5
+CP_that CP_whether CP_for 0.5
+CP_that CP_whether CP_null 0.5
+CP_that CP_whether CP_that 0.5
+CP_that CP_whether CP_whether 0.5
+CP_that CP_whether IP 0.5
+CP_that CP_whether NP 0.5
+CP_that CP_whether PP 0.5
+CP_that CP_whether VP 0.5
+CP_that CP_whether end 0.5
+CP_that IP ADJP 0.5
+CP_that IP CP_after 0.5
+CP_that IP CP_for 0.5
+CP_that IP CP_null 0.5
+CP_that IP CP_that 0.5
+CP_that IP CP_whether 0.5
+CP_that IP IP 0.5
+CP_that IP NP 0.5
+CP_that IP PP 0.5
+CP_that IP VP 18.5
+CP_that IP end 0.5
+CP_that NP ADJP 0.5
+CP_that NP CP_after 0.5
+CP_that NP CP_for 0.5
+CP_that NP CP_null 0.5
+CP_that NP CP_that 0.5
+CP_that NP CP_whether 0.5
+CP_that NP IP 0.5
+CP_that NP NP 0.5
+CP_that NP PP 0.5
+CP_that NP VP 0.5
+CP_that NP end 0.5
+CP_that PP ADJP 0.5
+CP_that PP CP_after 0.5
+CP_that PP CP_for 0.5
+CP_that PP CP_null 0.5
+CP_that PP CP_that 0.5
+CP_that PP CP_whether 0.5
+CP_that PP IP 0.5
+CP_that PP NP 0.5
+CP_that PP PP 0.5
+CP_that PP VP 0.5
+CP_that PP end 0.5
+CP_that VP ADJP 0.5
+CP_that VP CP_after 0.5
+CP_that VP CP_for 0.5
+CP_that VP CP_null 0.5
+CP_that VP CP_that 0.5
+CP_that VP CP_whether 0.5
+CP_that VP IP 0.5
+CP_that VP NP 0.5
+CP_that VP PP 0.5
+CP_that VP VP 0.5
+CP_that VP end 0.5
+CP_whether ADJP ADJP 0.5
+CP_whether ADJP CP_after 0.5
+CP_whether ADJP CP_for 0.5
+CP_whether ADJP CP_null 0.5
+CP_whether ADJP CP_that 0.5
+CP_whether ADJP CP_whether 0.5
+CP_whether ADJP IP 0.5
+CP_whether ADJP NP 0.5
+CP_whether ADJP PP 0.5
+CP_whether ADJP VP 0.5
+CP_whether ADJP end 0.5
+CP_whether CP_after ADJP 0.5
+CP_whether CP_after CP_after 0.5
+CP_whether CP_after CP_for 0.5
+CP_whether CP_after CP_null 0.5
+CP_whether CP_after CP_that 0.5
+CP_whether CP_after CP_whether 0.5
+CP_whether CP_after IP 0.5
+CP_whether CP_after NP 0.5
+CP_whether CP_after PP 0.5
+CP_whether CP_after VP 0.5
+CP_whether CP_after end 0.5
+CP_whether CP_for ADJP 0.5
+CP_whether CP_for CP_after 0.5
+CP_whether CP_for CP_for 0.5
+CP_whether CP_for CP_null 0.5
+CP_whether CP_for CP_that 0.5
+CP_whether CP_for CP_whether 0.5
+CP_whether CP_for IP 0.5
+CP_whether CP_for NP 0.5
+CP_whether CP_for PP 0.5
+CP_whether CP_for VP 0.5
+CP_whether CP_for end 0.5
+CP_whether CP_null ADJP 0.5
+CP_whether CP_null CP_after 0.5
+CP_whether CP_null CP_for 0.5
+CP_whether CP_null CP_null 0.5
+CP_whether CP_null CP_that 0.5
+CP_whether CP_null CP_whether 0.5
+CP_whether CP_null IP 0.5
+CP_whether CP_null NP 0.5
+CP_whether CP_null PP 0.5
+CP_whether CP_null VP 0.5
+CP_whether CP_null end 0.5
+CP_whether CP_that ADJP 0.5
+CP_whether CP_that CP_after 0.5
+CP_whether CP_that CP_for 0.5
+CP_whether CP_that CP_null 0.5
+CP_whether CP_that CP_that 0.5
+CP_whether CP_that CP_whether 0.5
+CP_whether CP_that IP 0.5
+CP_whether CP_that NP 0.5
+CP_whether CP_that PP 0.5
+CP_whether CP_that VP 0.5
+CP_whether CP_that end 0.5
+CP_whether CP_whether ADJP 0.5
+CP_whether CP_whether CP_after 0.5
+CP_whether CP_whether CP_for 0.5
+CP_whether CP_whether CP_null 0.5
+CP_whether CP_whether CP_that 0.5
+CP_whether CP_whether CP_whether 0.5
+CP_whether CP_whether IP 0.5
+CP_whether CP_whether NP 0.5
+CP_whether CP_whether PP 0.5
+CP_whether CP_whether VP 0.5
+CP_whether CP_whether end 0.5
+CP_whether IP ADJP 0.5
+CP_whether IP CP_after 0.5
+CP_whether IP CP_for 0.5
+CP_whether IP CP_null 0.5
+CP_whether IP CP_that 0.5
+CP_whether IP CP_whether 0.5
+CP_whether IP IP 0.5
+CP_whether IP NP 0.5
+CP_whether IP PP 0.5
+CP_whether IP VP 0.5
+CP_whether IP end 0.5
+CP_whether NP ADJP 0.5
+CP_whether NP CP_after 0.5
+CP_whether NP CP_for 0.5
+CP_whether NP CP_null 0.5
+CP_whether NP CP_that 0.5
+CP_whether NP CP_whether 0.5
+CP_whether NP IP 0.5
+CP_whether NP NP 0.5
+CP_whether NP PP 0.5
+CP_whether NP VP 0.5
+CP_whether NP end 0.5
+CP_whether PP ADJP 0.5
+CP_whether PP CP_after 0.5
+CP_whether PP CP_for 0.5
+CP_whether PP CP_null 0.5
+CP_whether PP CP_that 0.5
+CP_whether PP CP_whether 0.5
+CP_whether PP IP 0.5
+CP_whether PP NP 0.5
+CP_whether PP PP 0.5
+CP_whether PP VP 0.5
+CP_whether PP end 0.5
+CP_whether VP ADJP 0.5
+CP_whether VP CP_after 0.5
+CP_whether VP CP_for 0.5
+CP_whether VP CP_null 0.5
+CP_whether VP CP_that 0.5
+CP_whether VP CP_whether 0.5
+CP_whether VP IP 0.5
+CP_whether VP NP 0.5
+CP_whether VP PP 0.5
+CP_whether VP VP 0.5
+CP_whether VP end 0.5
+IP ADJP ADJP 0.5
+IP ADJP CP_after 0.5
+IP ADJP CP_for 0.5
+IP ADJP CP_null 0.5
+IP ADJP CP_that 0.5
+IP ADJP CP_whether 0.5
+IP ADJP IP 0.5
+IP ADJP NP 0.5
+IP ADJP PP 0.5
+IP ADJP VP 0.5
+IP ADJP end 0.5
+IP CP_after ADJP 0.5
+IP CP_after CP_after 0.5
+IP CP_after CP_for 0.5
+IP CP_after CP_null 0.5
+IP CP_after CP_that 0.5
+IP CP_after CP_whether 0.5
+IP CP_after IP 0.5
+IP CP_after NP 0.5
+IP CP_after PP 0.5
+IP CP_after VP 0.5
+IP CP_after end 0.5
+IP CP_for ADJP 0.5
+IP CP_for CP_after 0.5
+IP CP_for CP_for 0.5
+IP CP_for CP_null 0.5
+IP CP_for CP_that 0.5
+IP CP_for CP_whether 0.5
+IP CP_for IP 0.5
+IP CP_for NP 0.5
+IP CP_for PP 0.5
+IP CP_for VP 0.5
+IP CP_for end 0.5
+IP CP_null ADJP 0.5
+IP CP_null CP_after 0.5
+IP CP_null CP_for 0.5
+IP CP_null CP_null 0.5
+IP CP_null CP_that 0.5
+IP CP_null CP_whether 0.5
+IP CP_null IP 0.5
+IP CP_null NP 0.5
+IP CP_null PP 0.5
+IP CP_null VP 0.5
+IP CP_null end 0.5
+IP CP_that ADJP 0.5
+IP CP_that CP_after 0.5
+IP CP_that CP_for 0.5
+IP CP_that CP_null 0.5
+IP CP_that CP_that 0.5
+IP CP_that CP_whether 0.5
+IP CP_that IP 0.5
+IP CP_that NP 0.5
+IP CP_that PP 0.5
+IP CP_that VP 0.5
+IP CP_that end 0.5
+IP CP_whether ADJP 0.5
+IP CP_whether CP_after 0.5
+IP CP_whether CP_for 0.5
+IP CP_whether CP_null 0.5
+IP CP_whether CP_that 0.5
+IP CP_whether CP_whether 0.5
+IP CP_whether IP 0.5
+IP CP_whether NP 0.5
+IP CP_whether PP 0.5
+IP CP_whether VP 0.5
+IP CP_whether end 0.5
+IP IP ADJP 0.5
+IP IP CP_after 0.5
+IP IP CP_for 0.5
+IP IP CP_null 0.5
+IP IP CP_that 0.5
+IP IP CP_whether 0.5
+IP IP IP 0.5
+IP IP NP 0.5
+IP IP PP 0.5
+IP IP VP 0.5
+IP IP end 0.5
+IP NP ADJP 0.5
+IP NP CP_after 0.5
+IP NP CP_for 0.5
+IP NP CP_null 0.5
+IP NP CP_that 0.5
+IP NP CP_whether 0.5
+IP NP IP 0.5
+IP NP NP 0.5
+IP NP PP 0.5
+IP NP VP 0.5
+IP NP end 0.5
+IP PP ADJP 0.5
+IP PP CP_after 0.5
+IP PP CP_for 0.5
+IP PP CP_null 0.5
+IP PP CP_that 0.5
+IP PP CP_whether 0.5
+IP PP IP 0.5
+IP PP NP 0.5
+IP PP PP 0.5
+IP PP VP 0.5
+IP PP end 0.5
+IP VP ADJP 0.5
+IP VP CP_after 0.5
+IP VP CP_for 7.5
+IP VP CP_null 3038.5
+IP VP CP_that 18.5
+IP VP CP_whether 0.5
+IP VP IP 13173.5
+IP VP NP 609.5
+IP VP PP 6581.5
+IP VP VP 17.5
+IP VP end 166999.5
+NP ADJP ADJP 0.5
+NP ADJP CP_after 0.5
+NP ADJP CP_for 0.5
+NP ADJP CP_null 0.5
+NP ADJP CP_that 0.5
+NP ADJP CP_whether 0.5
+NP ADJP IP 0.5
+NP ADJP NP 0.5
+NP ADJP PP 0.5
+NP ADJP VP 0.5
+NP ADJP end 0.5
+NP CP_after ADJP 0.5
+NP CP_after CP_after 0.5
+NP CP_after CP_for 0.5
+NP CP_after CP_null 0.5
+NP CP_after CP_that 0.5
+NP CP_after CP_whether 0.5
+NP CP_after IP 0.5
+NP CP_after NP 0.5
+NP CP_after PP 0.5
+NP CP_after VP 0.5
+NP CP_after end 0.5
+NP CP_for ADJP 0.5
+NP CP_for CP_after 0.5
+NP CP_for CP_for 0.5
+NP CP_for CP_null 0.5
+NP CP_for CP_that 0.5
+NP CP_for CP_whether 0.5
+NP CP_for IP 0.5
+NP CP_for NP 0.5
+NP CP_for PP 0.5
+NP CP_for VP 0.5
+NP CP_for end 0.5
+NP CP_null ADJP 0.5
+NP CP_null CP_after 0.5
+NP CP_null CP_for 0.5
+NP CP_null CP_null 0.5
+NP CP_null CP_that 0.5
+NP CP_null CP_whether 0.5
+NP CP_null IP 0.5
+NP CP_null NP 0.5
+NP CP_null PP 0.5
+NP CP_null VP 0.5
+NP CP_null end 0.5
+NP CP_that ADJP 0.5
+NP CP_that CP_after 0.5
+NP CP_that CP_for 0.5
+NP CP_that CP_null 0.5
+NP CP_that CP_that 0.5
+NP CP_that CP_whether 0.5
+NP CP_that IP 0.5
+NP CP_that NP 0.5
+NP CP_that PP 0.5
+NP CP_that VP 0.5
+NP CP_that end 0.5
+NP CP_whether ADJP 0.5
+NP CP_whether CP_after 0.5
+NP CP_whether CP_for 0.5
+NP CP_whether CP_null 0.5
+NP CP_whether CP_that 0.5
+NP CP_whether CP_whether 0.5
+NP CP_whether IP 0.5
+NP CP_whether NP 0.5
+NP CP_whether PP 0.5
+NP CP_whether VP 0.5
+NP CP_whether end 0.5
+NP IP ADJP 0.5
+NP IP CP_after 0.5
+NP IP CP_for 0.5
+NP IP CP_null 0.5
+NP IP CP_that 0.5
+NP IP CP_whether 0.5
+NP IP IP 0.5
+NP IP NP 0.5
+NP IP PP 0.5
+NP IP VP 0.5
+NP IP end 0.5
+NP NP ADJP 0.5
+NP NP CP_after 0.5
+NP NP CP_for 0.5
+NP NP CP_null 0.5
+NP NP CP_that 0.5
+NP NP CP_whether 0.5
+NP NP IP 0.5
+NP NP NP 0.5
+NP NP PP 0.5
+NP NP VP 0.5
+NP NP end 0.5
+NP PP ADJP 0.5
+NP PP CP_after 0.5
+NP PP CP_for 0.5
+NP PP CP_null 0.5
+NP PP CP_that 0.5
+NP PP CP_whether 0.5
+NP PP IP 0.5
+NP PP NP 0.5
+NP PP PP 0.5
+NP PP VP 0.5
+NP PP end 89.5
+NP VP ADJP 0.5
+NP VP CP_after 0.5
+NP VP CP_for 0.5
+NP VP CP_null 0.5
+NP VP CP_that 0.5
+NP VP CP_whether 0.5
+NP VP IP 0.5
+NP VP NP 0.5
+NP VP PP 0.5
+NP VP VP 0.5
+NP VP end 0.5
+PP ADJP ADJP 0.5
+PP ADJP CP_after 0.5
+PP ADJP CP_for 0.5
+PP ADJP CP_null 0.5
+PP ADJP CP_that 0.5
+PP ADJP CP_whether 0.5
+PP ADJP IP 0.5
+PP ADJP NP 0.5
+PP ADJP PP 0.5
+PP ADJP VP 0.5
+PP ADJP end 0.5
+PP CP_after ADJP 0.5
+PP CP_after CP_after 0.5
+PP CP_after CP_for 0.5
+PP CP_after CP_null 0.5
+PP CP_after CP_that 0.5
+PP CP_after CP_whether 0.5
+PP CP_after IP 0.5
+PP CP_after NP 0.5
+PP CP_after PP 0.5
+PP CP_after VP 0.5
+PP CP_after end 0.5
+PP CP_for ADJP 0.5
+PP CP_for CP_after 0.5
+PP CP_for CP_for 0.5
+PP CP_for CP_null 0.5
+PP CP_for CP_that 0.5
+PP CP_for CP_whether 0.5
+PP CP_for IP 0.5
+PP CP_for NP 0.5
+PP CP_for PP 0.5
+PP CP_for VP 0.5
+PP CP_for end 0.5
+PP CP_null ADJP 0.5
+PP CP_null CP_after 0.5
+PP CP_null CP_for 0.5
+PP CP_null CP_null 0.5
+PP CP_null CP_that 0.5
+PP CP_null CP_whether 0.5
+PP CP_null IP 8.5
+PP CP_null NP 0.5
+PP CP_null PP 0.5
+PP CP_null VP 0.5
+PP CP_null end 0.5
+PP CP_that ADJP 0.5
+PP CP_that CP_after 0.5
+PP CP_that CP_for 0.5
+PP CP_that CP_null 0.5
+PP CP_that CP_that 0.5
+PP CP_that CP_whether 0.5
+PP CP_that IP 0.5
+PP CP_that NP 0.5
+PP CP_that PP 0.5
+PP CP_that VP 0.5
+PP CP_that end 0.5
+PP CP_whether ADJP 0.5
+PP CP_whether CP_after 0.5
+PP CP_whether CP_for 0.5
+PP CP_whether CP_null 0.5
+PP CP_whether CP_that 0.5
+PP CP_whether CP_whether 0.5
+PP CP_whether IP 0.5
+PP CP_whether NP 0.5
+PP CP_whether PP 0.5
+PP CP_whether VP 0.5
+PP CP_whether end 0.5
+PP IP ADJP 0.5
+PP IP CP_after 0.5
+PP IP CP_for 0.5
+PP IP CP_null 0.5
+PP IP CP_that 0.5
+PP IP CP_whether 0.5
+PP IP IP 0.5
+PP IP NP 0.5
+PP IP PP 0.5
+PP IP VP 0.5
+PP IP end 0.5
+PP NP ADJP 0.5
+PP NP CP_after 0.5
+PP NP CP_for 0.5
+PP NP CP_null 0.5
+PP NP CP_that 0.5
+PP NP CP_whether 0.5
+PP NP IP 0.5
+PP NP NP 0.5
+PP NP PP 27.5
+PP NP VP 0.5
+PP NP end 0.5
+PP PP ADJP 0.5
+PP PP CP_after 0.5
+PP PP CP_for 0.5
+PP PP CP_null 0.5
+PP PP CP_that 0.5
+PP PP CP_whether 0.5
+PP PP IP 0.5
+PP PP NP 0.5
+PP PP PP 0.5
+PP PP VP 0.5
+PP PP end 237.5
+PP VP ADJP 0.5
+PP VP CP_after 0.5
+PP VP CP_for 0.5
+PP VP CP_null 0.5
+PP VP CP_that 0.5
+PP VP CP_whether 0.5
+PP VP IP 0.5
+PP VP NP 0.5
+PP VP PP 0.5
+PP VP VP 0.5
+PP VP end 17.5
+VP ADJP ADJP 0.5
+VP ADJP CP_after 0.5
+VP ADJP CP_for 0.5
+VP ADJP CP_null 0.5
+VP ADJP CP_that 0.5
+VP ADJP CP_whether 0.5
+VP ADJP IP 0.5
+VP ADJP NP 0.5
+VP ADJP PP 0.5
+VP ADJP VP 0.5
+VP ADJP end 0.5
+VP CP_after ADJP 0.5
+VP CP_after CP_after 0.5
+VP CP_after CP_for 0.5
+VP CP_after CP_null 0.5
+VP CP_after CP_that 0.5
+VP CP_after CP_whether 0.5
+VP CP_after IP 0.5
+VP CP_after NP 0.5
+VP CP_after PP 0.5
+VP CP_after VP 0.5
+VP CP_after end 0.5
+VP CP_for ADJP 0.5
+VP CP_for CP_after 0.5
+VP CP_for CP_for 0.5
+VP CP_for CP_null 0.5
+VP CP_for CP_that 0.5
+VP CP_for CP_whether 0.5
+VP CP_for IP 7.5
+VP CP_for NP 0.5
+VP CP_for PP 0.5
+VP CP_for VP 0.5
+VP CP_for end 0.5
+VP CP_null ADJP 0.5
+VP CP_null CP_after 0.5
+VP CP_null CP_for 0.5
+VP CP_null CP_null 0.5
+VP CP_null CP_that 0.5
+VP CP_null CP_whether 0.5
+VP CP_null IP 3038.5
+VP CP_null NP 0.5
+VP CP_null PP 0.5
+VP CP_null VP 0.5
+VP CP_null end 0.5
+VP CP_that ADJP 0.5
+VP CP_that CP_after 0.5
+VP CP_that CP_for 0.5
+VP CP_that CP_null 0.5
+VP CP_that CP_that 0.5
+VP CP_that CP_whether 0.5
+VP CP_that IP 18.5
+VP CP_that NP 0.5
+VP CP_that PP 0.5
+VP CP_that VP 0.5
+VP CP_that end 0.5
+VP CP_whether ADJP 0.5
+VP CP_whether CP_after 0.5
+VP CP_whether CP_for 0.5
+VP CP_whether CP_null 0.5
+VP CP_whether CP_that 0.5
+VP CP_whether CP_whether 0.5
+VP CP_whether IP 0.5
+VP CP_whether NP 0.5
+VP CP_whether PP 0.5
+VP CP_whether VP 0.5
+VP CP_whether end 0.5
+VP IP ADJP 0.5
+VP IP CP_after 0.5
+VP IP CP_for 0.5
+VP IP CP_null 0.5
+VP IP CP_that 0.5
+VP IP CP_whether 0.5
+VP IP IP 0.5
+VP IP NP 0.5
+VP IP PP 0.5
+VP IP VP 13091.5
+VP IP end 82.5
+VP NP ADJP 0.5
+VP NP CP_after 0.5
+VP NP CP_for 0.5
+VP NP CP_null 0.5
+VP NP CP_that 0.5
+VP NP CP_whether 0.5
+VP NP IP 0.5
+VP NP NP 0.5
+VP NP PP 62.5
+VP NP VP 0.5
+VP NP end 547.5
+VP PP ADJP 0.5
+VP PP CP_after 0.5
+VP PP CP_for 0.5
+VP PP CP_null 8.5
+VP PP CP_that 0.5
+VP PP CP_whether 0.5
+VP PP IP 0.5
+VP PP NP 27.5
+VP PP PP 237.5
+VP PP VP 17.5
+VP PP end 6300.5
+VP VP ADJP 0.5
+VP VP CP_after 0.5
+VP VP CP_for 0.5
+VP VP CP_null 0.5
+VP VP CP_that 0.5
+VP VP CP_whether 0.5
+VP VP IP 0.5
+VP VP NP 0.5
+VP VP PP 8.5
+VP VP VP 0.5
+VP VP end 9.5
+start ADJP ADJP 0.5
+start ADJP CP_after 0.5
+start ADJP CP_for 0.5
+start ADJP CP_null 0.5
+start ADJP CP_that 0.5
+start ADJP CP_whether 0.5
+start ADJP IP 0.5
+start ADJP NP 0.5
+start ADJP PP 0.5
+start ADJP VP 0.5
+start ADJP end 0.5
+start CP_after ADJP 0.5
+start CP_after CP_after 0.5
+start CP_after CP_for 0.5
+start CP_after CP_null 0.5
+start CP_after CP_that 0.5
+start CP_after CP_whether 0.5
+start CP_after IP 0.5
+start CP_after NP 0.5
+start CP_after PP 0.5
+start CP_after VP 0.5
+start CP_after end 0.5
+start CP_for ADJP 0.5
+start CP_for CP_after 0.5
+start CP_for CP_for 0.5
+start CP_for CP_null 0.5
+start CP_for CP_that 0.5
+start CP_for CP_whether 0.5
+start CP_for IP 0.5
+start CP_for NP 0.5
+start CP_for PP 0.5
+start CP_for VP 0.5
+start CP_for end 0.5
+start CP_null ADJP 0.5
+start CP_null CP_after 0.5
+start CP_null CP_for 0.5
+start CP_null CP_null 0.5
+start CP_null CP_that 0.5
+start CP_null CP_whether 0.5
+start CP_null IP 0.5
+start CP_null NP 0.5
+start CP_null PP 0.5
+start CP_null VP 0.5
+start CP_null end 0.5
+start CP_that ADJP 0.5
+start CP_that CP_after 0.5
+start CP_that CP_for 0.5
+start CP_that CP_null 0.5
+start CP_that CP_that 0.5
+start CP_that CP_whether 0.5
+start CP_that IP 0.5
+start CP_that NP 0.5
+start CP_that PP 0.5
+start CP_that VP 0.5
+start CP_that end 0.5
+start CP_whether ADJP 0.5
+start CP_whether CP_after 0.5
+start CP_whether CP_for 0.5
+start CP_whether CP_null 0.5
+start CP_whether CP_that 0.5
+start CP_whether CP_whether 0.5
+start CP_whether IP 0.5
+start CP_whether NP 0.5
+start CP_whether PP 0.5
+start CP_whether VP 0.5
+start CP_whether end 0.5
+start IP ADJP 0.5
+start IP CP_after 0.5
+start IP CP_for 0.5
+start IP CP_null 0.5
+start IP CP_that 0.5
+start IP CP_whether 0.5
+start IP IP 0.5
+start IP NP 0.5
+start IP PP 0.5
+start IP VP 174524.5
+start IP end 25476.5
+start NP ADJP 0.5
+start NP CP_after 0.5
+start NP CP_for 0.5
+start NP CP_null 0.5
+start NP CP_that 0.5
+start NP CP_whether 0.5
+start NP IP 0.5
+start NP NP 0.5
+start NP PP 0.5
+start NP VP 0.5
+start NP end 0.5
+start PP ADJP 0.5
+start PP CP_after 0.5
+start PP CP_for 0.5
+start PP CP_null 0.5
+start PP CP_that 0.5
+start PP CP_whether 0.5
+start PP IP 0.5
+start PP NP 0.5
+start PP PP 0.5
+start PP VP 0.5
+start PP end 0.5
+start VP ADJP 0.5
+start VP CP_after 0.5
+start VP CP_for 0.5
+start VP CP_null 0.5
+start VP CP_that 0.5
+start VP CP_whether 0.5
+start VP IP 0.5
+start VP NP 0.5
+start VP PP 0.5
+start VP VP 0.5
+start VP end 0.5

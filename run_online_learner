@@ -1,0 +1,7 @@
+#### TRIGRAMS ####
+# regular chains, updated learning period (200k)
+## child data: brown-adam & brown-eve
+online_learner.pl -inputfile "input/child-all.counts" -chainfile "input/child-all.chains" -data_points_to_run 200000 -print_interval 25000 > child-all.run1
+## finer-grained CP chains, updated learning period (200k)
+online_learner.pl -inputfile "input/child-all.countsCP" -chainfile "input/child-all.chainsCP" -data_points_to_run 200000 -print_interval 25000 > child-allCP.run1
+
