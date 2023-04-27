@@ -5,6 +5,15 @@
  how often learned probabilities are output, and
  what the smoothing constant is for relativizing probabilities.
 
+If using, please cite the following:
+	
+Pearl, L. & Sprouse, J. 2013. 
+Syntactic islands and learning biases: 
+Combining experimental syntax and computational modeling 
+to investigate the language acquisition problem. 
+*Language Acquisition, 20, 23-68.* 
+DOI 10.1080/10489223.2012.738742.
+
 
 # Main code: online_learner.pl
   invoking learner with default options
